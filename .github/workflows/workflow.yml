@@ -23,5 +23,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t abbasmsh1/test:latest .
-          docker push abbasmsh1/test:latest
+          docker build -t abbasmsh1/mlops07:latest .
+          docker push abbasmsh1/mlops07:latest
