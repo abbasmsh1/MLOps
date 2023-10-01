@@ -32,7 +32,7 @@ mse = mean_squared_error(y_test, y_pred)
 r2 = r2_score(y_test, y_pred)
 
 print(f'Mean Squared Error: {mse:.2f}')
-print(f'R-squared (Coefficient of Determination): {r2:.2f}')
+# print(f'R-squared (Coefficient of Determination): {r2:.2f}')
 
 
 # plt.scatter(X_test, y_test, color='black')
